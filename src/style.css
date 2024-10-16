@@ -1,0 +1,11 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
+    overflow-y: scroll; /* Enable vertical scrolling */
+  }
+  
+  section {
+    height: 100vh; /* Each section takes the full height of the viewport */
+    scroll-snap-align: start; /* Snap to the start of each section */
+  }
