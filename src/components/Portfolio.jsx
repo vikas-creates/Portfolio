@@ -48,7 +48,7 @@ function Portfolio() {
                     <div className='text-justify '>{text}</div>
                     <div className='flex justify-between p-2'>
                     <button className='bg-red-500 rounded-md text-white px-2 py-1 hover:scale-105 duration-200 '>Demo</button>
-                    <button className='bg-green-500 rounded-md text-white px-2 py-1 hover:scale-105 duration-200'>Code</button>
+                    <button className='bg-green-500 rounded-md text-white px-2 py-1 hover:scale-105 duration-200'><a href="https://github.com/vikas-creates" target="_blank" rel="noopener noreferrer" aria-label="GitHub">Code</a></button>
                     </div>
                 </li>
             ))}
